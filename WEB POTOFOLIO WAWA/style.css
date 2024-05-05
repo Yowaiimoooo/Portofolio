@@ -1,0 +1,154 @@
+body {
+    background-color: #f5f0e1;
+    font-family: Arial, sans-serif;
+    display: block;
+}
+
+header {
+    background-color: #7e6c53;
+    padding: 20px 0;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.home-left {
+    width: 50%;
+}
+
+.home-right img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #7e6c53;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #654b34;
+}
+
+.section-title-about {
+    text-align: center;
+    font-size: 36px;
+    color: #654b34;
+    margin-bottom: 30px;
+}
+
+.grid-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-icon img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #7e6c53;
+    padding: 10px;
+}
+
+.about-content {
+    width: 60%;
+}
+
+.about-content h4 {
+    font-size: 24px;
+    color: #654b34;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    color: #654b34;
+    font-size: 16px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.contact-info-item {
+    text-align: center;
+    flex: 1;
+    padding: 0 20px;
+}
+
+.contact-info-item h4 {
+    font-size: 24px;
+    color: #654b34;
+    margin-bottom: 10px;
+}
+
+.contact-info-item p {
+    color: #654b34;
+    font-size: 16px;
+}
+
+/* Animasi */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+}
